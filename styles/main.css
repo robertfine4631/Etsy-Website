@@ -61,6 +61,17 @@ section {
     width: 74.41059%; }
     section .content:last-child {
       margin-right: 0; }
+    section .content li.block {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      section .content li.block:last-child {
+        margin-right: 0; }
+      section .content li.block:nth-child(3n) {
+        margin-right: 0; }
+      section .content li.block:nth-child(3n+1) {
+        clear: left; }
   section .sidebar {
     float: left;
     display: block;
