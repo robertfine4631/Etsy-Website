@@ -16,6 +16,8 @@
 	border: 1px 0 1px 1px solid #d6d6d6;
 	padding: 6px 10px 6px 10px;
 	margin-right: 0;
+	width:251px;
+	height: 34px;
 }
 .navbutton {
 	margin-left: 0;
@@ -56,6 +58,11 @@ section {
 	li.block {
   @include span-columns(3);
   @include omega(3n);
+  height: 220px;
+  width: 225px;
+  border: 1px solid #d6d6d6;
+  margin-bottom: 21px;
+  background-color: white;
 }
 	}
 	.sidebar {
